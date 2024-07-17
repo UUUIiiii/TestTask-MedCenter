@@ -1,0 +1,38 @@
+body {
+    background-color:var(--background-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oranienbaum';
+    font-weight: 400;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li, a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.btn{
+    padding: 12px;
+    background-color: #FAF4E8;
+    width: 190px;
+    gap: 10px;
+    border: 0.5px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 50px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 18px 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

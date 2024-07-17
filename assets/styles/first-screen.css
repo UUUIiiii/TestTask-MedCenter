@@ -1,0 +1,24 @@
+.first-screen{
+    padding-bottom: 89px;
+}
+
+.first-screen__container {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    width: 413px;
+    padding-right: 129px;
+    color: var(--secondary-color);
+}
+.title-first-screen{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.text-about{
+    font-family: 'Inter Display';
+    font-weight: 400;
+    line-height: 24px;
+}

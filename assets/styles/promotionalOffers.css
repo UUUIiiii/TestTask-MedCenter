@@ -1,0 +1,150 @@
+.promotionalOffers > .container {
+    padding-bottom: 116px;
+}
+
+.container > h1{
+    padding-bottom: 29px;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+.box-wrapper{
+    display: flex;
+}
+.promotions{
+    padding-right: 30px;
+}
+.swiper {
+    height: 454px;
+    width: 837px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+.promotion-form {
+    width: 413px;
+    height: 454px;
+    padding: 0 26px;
+    border: 1px solid var(--primary-color);
+}
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-description{
+    width: 629px;
+    height: 114px;
+}
+
+.slider-description > .slider-titel{
+    margin: 16px 0;
+}
+
+.slider-description > a {
+    color: var(--primary-color);
+}
+
+.slider-titel{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.slider-text{
+    font-family: 'Inter Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-color);
+}
+
+/* Тут використовую властивість імпортент для того, щоб переписати стилі для стрілок */
+
+.swiper-button-prev, .swiper-button-next{
+    background-color: #F1EFE9;
+    width: 89px !important;
+    height: 89px !important;
+    
+}
+.swiper-button-prev{
+    border-radius: 300px 0 0 300px !important;
+    margin-right: 16px;
+}
+.swiper-button-next{
+    border-radius: 0 300px 300px 0 !important;
+    margin-left: 16px;
+}
+.swiper-button-next > img {
+    transform: rotate(180deg);
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 0 !important;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 0 !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    content: '' !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    content: '' !important;
+}
+
+/* Form */
+.input-wrapper {
+    padding-bottom: 8px;
+}
+.input-wrapper:last-child {
+    padding-bottom: 16px;
+}
+
+.input-box {
+    width: 361px;
+    height: 34px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--background-color);
+    padding: 8px 16px;
+}
+.row > .input-wrapper {
+    position: relative;
+}
+.in {
+    width: 286px;
+    padding: 18.5px 20px;
+    border-radius: 4px;
+    border: 1px solid #D0CFCF;
+    margin-bottom: 50px;
+    background-color: var(--background-color);
+}
+
+.placeholder {
+    padding: 0 3px 0 3px;
+    position: absolute;
+    font-size: 10px;
+    line-height: 10px;
+    font-family: 'Inter Display';
+    left: 20px;
+    top: 50%;
+    transform: translateY(-300%);
+}
+
+.agreement{
+    padding-bottom: 20px;
+}
+
+.accept{
+    width: 361px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+}

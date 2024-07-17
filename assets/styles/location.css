@@ -1,0 +1,52 @@
+.location {
+    padding-bottom: 160px;
+}
+
+.adress {
+    background: url('../img/Warszawa_map.png') ;
+    width: 386px;
+    height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactNumber {
+    font-size: 16px;
+    line-height: 24px;
+}
+.firstPar {
+    padding-bottom: 13px;
+}
+.secondPar{
+    font-family: 'Oranienbaum';
+    font-size: 32px;
+    line-height: 35px;
+    color: var(--secondary-color);
+}
+
+.logoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 176px;
+}
+.contactNumber > span, .adress > span, .socialMedia > span {
+    display: block;
+}
+
+.locatio-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFF;
+    height: 280px;
+}
+
+.imgLocation {
+    position: relative;
+}
+.img {
+    position: absolute;
+}

@@ -1,0 +1,46 @@
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 104px;
+}
+a, span{
+    display: block;
+}
+p {
+    margin: 0 0 15px 0;
+}
+.card {
+    width: 295px;
+}
+
+.card p {
+    font-size: 12px;
+    color: var(--secondary-color);
+}
+
+.navigation-link {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.navigation-link a {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--primary-color);
+}
+.footer-location {
+    display: flex;
+}
+.footer-location span {
+    width: 270px;
+    padding-bottom: 15px;
+}
+
+.footer-links__documents a {
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: var(--primary-color);
+}
+
